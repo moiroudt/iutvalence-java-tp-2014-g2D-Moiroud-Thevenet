@@ -1,5 +1,5 @@
 /**
- *   On lance une partie de bataille navale.
+ *   On joue une partie de bataille navale.
  * 
  * @author moiroudt
  *
