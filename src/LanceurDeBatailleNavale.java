@@ -17,7 +17,7 @@ public class LanceurDeBatailleNavale {
 		// TODO Auto-generated method stub
 
 		BN partie = new BN[];
-		paritie.jouer();
+		partie.jouer();
 		
 	}
 
