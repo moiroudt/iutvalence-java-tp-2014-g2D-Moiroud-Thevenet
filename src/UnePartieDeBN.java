@@ -4,7 +4,7 @@
  * @author moiroudt
  *
  */
-public class UnePartieDeBatailleNavale {
+public class UnePartieDeBN {
 	
 	
 
