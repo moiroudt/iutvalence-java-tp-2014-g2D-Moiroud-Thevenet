@@ -1,6 +1,8 @@
-// TODO déplacer la classe dans un paquetage
+package jeudebataillenavale;
 
-// TODO renommer la classe
+// TODO déplacer la classe dans un paquetage (done)
+
+// TODO renommer la classe (done)
 
 /**
  * Lance une partie de bataille navale
@@ -8,7 +10,7 @@
  * @author moiroudt
  * 
  */
-public class LanceurDeBN
+public class LanceurPartie
 {
 	// TODO corriger les problèmes d'encodage de caractères (merci d'avoir écouté ce 
 	// que je disais pendant le TP de configuration d'Eclipse ...)
@@ -21,7 +23,7 @@ public class LanceurDeBN
 	 */
 	public static void main(String[] args)
 	{
-		new UnePartieDeBN();
+		new BatailleNavale();
 
 	}
 

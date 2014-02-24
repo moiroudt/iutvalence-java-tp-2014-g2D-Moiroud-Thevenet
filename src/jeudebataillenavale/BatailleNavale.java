@@ -1,14 +1,17 @@
-// TODO déplacer la classe dans un paquetage
+package jeudebataillenavale;
 
-// TODO renommer la classe (BatailleNavale)
+//TODO déplacer la classe dans un paquetage (done)
+
+//TODO renommer la classe(BatailleNavale) (done)
+
 // TODO écrire un commentaire précis (celui-ci ne l'est pas)
 /**
- * On joue une partie de bataille navale.
+ * 
  * 
  * @author moiroudt
  * 
  */
-public class UnePartieDeBN
+public class BatailleNavale
 {
 
 }
