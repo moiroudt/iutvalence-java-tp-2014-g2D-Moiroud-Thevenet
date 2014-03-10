@@ -16,7 +16,7 @@ public class LanceurPartie
 	// que je disais pendant le TP de configuration d'Eclipse ...)
 	// TODO finir d'écrire le commentaire et faire en sorte qu'il commente ce qui est fait
 	/**
-	 * Cr�ation d'une partie de bataille navale Apr�s la cr�ation de cette
+	 * Creation d'une partie de bataille navale Apres la creation de cette
 	 * partie on la joue.
 	 * 
 	 * @param args
