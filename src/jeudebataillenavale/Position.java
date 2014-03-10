@@ -9,8 +9,8 @@ package jeudebataillenavale;
  */
 public class Position
 {
-	private int x; //x definit l'abscisse de la position de la proue
-	private int y; //y definit l'ordonnee de la position de la proue
+	private final int x; //x definit l'abscisse de la position de la proue
+	private final int y; //y definit l'ordonnee de la position de la proue
 	
 	/** On créer l'objet position */
 	public Position(int x, int y)
@@ -18,5 +18,12 @@ public class Position
 		this.x = x;
 		this.y = y;
 	}
-	
+	  public int getx()
+	  {
+	        return x;
+	  }
+	  public int gety()
+	  {
+	        return y;
+	  }
 }
