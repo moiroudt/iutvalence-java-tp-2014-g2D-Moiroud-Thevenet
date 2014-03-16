@@ -1,8 +1,5 @@
+// TODO renommer le paquetage (fr.iutvalence.java.tp.bataillenavale)
 package jeudebataillenavale;
-
-// TODO déplacer la classe dans un paquetage (done)
-
-// TODO renommer la classe (done)
 
 /**
  * Lance une partie de bataille navale
@@ -12,9 +9,6 @@ package jeudebataillenavale;
  */
 public class LanceurPartie
 {
-	// TODO corriger les problèmes d'encodage de caractères (merci d'avoir écouté ce 
-	// que je disais pendant le TP de configuration d'Eclipse ...)
-	// TODO finir d'écrire le commentaire et faire en sorte qu'il commente ce qui est fait
 	/**
 	 * Creation d'une partie de bataille navale Apres la creation de cette
 	 * partie on la joue.
@@ -24,7 +18,6 @@ public class LanceurPartie
 	public static void main(String[] args)
 	{
 		new BatailleNavale();
-
 	}
 
 }
