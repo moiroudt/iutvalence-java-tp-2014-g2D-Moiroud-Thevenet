@@ -1,15 +1,12 @@
 package fr.iutvalence.java.tp.bataillenavale;
 
-import fr.iutvalence.java.tp.bataillenavale.Plateau;
-import fr.iutvalence.java.tp.bataillenavale.Position;
-
-// TODO écrire un commentaire
+// TODO écrire un commentaire (done)
 /**
 * represente un bateau sur un plateau
 * @author moiroudt
 *
 */
-public class Bateau //definition de la pièce Bateau.
+public class Bateau
 {
 	/**
 	 * plateau definit le plateau sur lequel est place le bateau
@@ -30,11 +27,11 @@ public class Bateau //definition de la pièce Bateau.
 
 	// TODO écrire un commentaire (done)
 	/**
-	 * positionProue definit les coordoonees de la proue du bateau
+	 * positionProue definit les coordonnees de la proue du bateau
 	 */
 	private final Position positionProue;
 
-	// TODO écrire un commentaire plus précis
+	// TODO écrire un commentaire plus précis (done)
 	/** 
 	 *  construire un bateau a la position donne
 	 * @param taille la taille du bateau
