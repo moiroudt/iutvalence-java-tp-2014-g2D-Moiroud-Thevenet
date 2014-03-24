@@ -16,7 +16,7 @@ public class LanceurPartie
 */
 public static void main(String[] args)
 {
-new BatailleNavale();
+	new BatailleNavale();
 }
 
 }
