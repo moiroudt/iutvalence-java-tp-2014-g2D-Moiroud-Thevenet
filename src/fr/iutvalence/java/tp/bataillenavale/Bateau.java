@@ -7,12 +7,7 @@ package fr.iutvalence.java.tp.bataillenavale;
 *
 */
 public class Bateau
-{
-	/**
-	 * plateau definit le plateau sur lequel est place le bateau
-	 */
-	private final Plateau plateau;
-	
+{	
 	// TODO écrire un commentaire (done)
 	/**
 	 * taille definit le nombre de cases qu'occupe un bateau
@@ -39,10 +34,47 @@ public class Bateau
 	 * @param positionProue la position du bateau a la proue
 	 * 
 	 */
-	public Bateau (Plateau plateau, boolean estHorizontal, int taille, Position positionProue)
+	public Bateau (boolean estHorizontal, int taille, Position positionProue)
 	{
-		this.plateau = plateau;
 		this.taille = taille;
 		this.positionProue = positionProue;
+	}
+	
+	/**
+	 * @param positionProue
+	 * @return
+	 */
+	public boolean estVide(Position positionProue)
+	{
+		if ( == null){
+			return true;
+		}
+		else return false;
+	}
+	
+	/**
+	 * @param position
+	 * @return
+	 */
+	public boolean estTouché(Position position)
+	{
+		
+	}
+	
+	/**
+	 * @return
+	 */
+	public boolean estCoulé()
+	{
+		
+	}
+	
+	/**
+	 * @param position
+	 * @return
+	 */
+	public boolean estIntact(Position position)
+	{
+		
 	}
 }
