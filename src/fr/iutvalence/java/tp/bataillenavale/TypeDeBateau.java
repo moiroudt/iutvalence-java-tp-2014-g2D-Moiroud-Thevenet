@@ -50,4 +50,6 @@ public enum TypeDeBateau
 	{
 		return this.tailleBateau;
 	}
+	
+	
 }
