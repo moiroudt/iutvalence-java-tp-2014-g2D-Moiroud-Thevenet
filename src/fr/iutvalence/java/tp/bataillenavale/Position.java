@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fr.iutvalence.java.tp.bataillenavale;
 
 /**
@@ -11,39 +8,41 @@ package fr.iutvalence.java.tp.bataillenavale;
 public class Position
 {
 	/**
-	 * x definit l'abscisse de la position de la proue
+	 * Le numéro de ligne
 	 */
-	private final int x;
-	
+	private final int numeroDeLigne;
+
 	/**
-	 * y definit l'ordonnee de la position de la proue
+	 * Le numéro de colonne
 	 */
-	private final int y;
-	
-	/** 
-	 * construit une nouvelle position, a l'intersection de l'abscisse et de l'ordonnee passees en parametre
-	 * @param x l'abscisse
-	 * @param y l'ordonnee
+	private final int numeroDeColonne;
+
+	/**
+	 * Construit une nouvelle position, à l'intersection ligne/colonne donnée
+	 * @param numeroDeLigne le nuémro de ligne
+	 * @param numeroDeColonne le numéro de colonne
 	 */
-	public Position(int x, int y)
+	public Position(int numeroDeLigne, int numeroDeColonne)
 	{
-		this.x = x;
-		this.y = y;
+		this.numeroDeLigne = numeroDeLigne;
+		this.numeroDeColonne = numeroDeColonne;
 	}
-	 
+
 	/**
-	 * @return l'abscisse
+	 * Obtenir le numéro de ligne
+	 * @return le numéro de ligne
 	 */
-	public int getx()
+	public int obtenirNumeroDeLigne()
 	{
-	        return this.x;
+		return this.numeroDeLigne;
 	}
-	
+
 	/**
-	 * @return l'ordonnee
+	 * Obtenir le numéro de colonne
+	 * @return le numéro de colonne
 	 */
-	public int gety()
+	public int obtenirNumeroDeColonne()
 	{
-		return this.y;
+		return this.numeroDeColonne;
 	}
 }
