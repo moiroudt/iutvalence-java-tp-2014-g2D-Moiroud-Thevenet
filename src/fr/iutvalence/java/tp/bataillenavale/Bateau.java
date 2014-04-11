@@ -13,7 +13,7 @@ public class Bateau
 	 * taille definit le nombre de cases qu'occupe un bateau
 	 */
 	private int taille;
-
+	
 	//TODO écrire un commentaire (done)
 	/**
 	 * horizontal definit la direction d'un bateau
@@ -34,29 +34,31 @@ public class Bateau
 	 * @param positionProue la position du bateau a la proue
 	 * 
 	 */
-	public Bateau (boolean estHorizontal, int taille, Position positionProue)
+	public Bateau (int taille, Position positionProue)
 	{
-		this.taille = taille;
-		this.positionProue = positionProue;
+		for(i=0; i<=taille; i++)
+		{
+			Bateau[]={this.positionProue,+postion};
+		}
 	}
+	
+	
+	
 	
 	/**
 	 * @param positionProue
 	 * @return
 	 */
-	public boolean estVide(Position positionProue)
+	public boolean occupePosition(Position position)
 	{
-		if ( == null){
-			return true;
-		}
-		else return false;
+		
 	}
 	
 	/**
 	 * @param position
 	 * @return
 	 */
-	public boolean estTouché(Position position)
+	public boolean estTouche(Position position)
 	{
 		
 	}
@@ -64,7 +66,7 @@ public class Bateau
 	/**
 	 * @return
 	 */
-	public boolean estCoulé()
+	public boolean estCoule()
 	{
 		
 	}

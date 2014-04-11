@@ -1,6 +1,3 @@
-/**
- * 
- */
 package fr.iutvalence.java.tp.bataillenavale;
 
 /**
