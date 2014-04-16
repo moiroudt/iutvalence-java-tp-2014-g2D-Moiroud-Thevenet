@@ -8,6 +8,24 @@ package fr.iutvalence.java.tp.bataillenavale;
 */
 public class Bateau
 {	
+
+	/**
+	 * plateau definit le plateau d'une partie
+	 */
+	private int plateau[][] =
+		{
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+			{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+		};
+			
 	// TODO écrire un commentaire (done)
 	/**
 	 * taille definit le nombre de cases qu'occupe un bateau
@@ -26,24 +44,40 @@ public class Bateau
 	 */
 	private final Position positionProue;
 
+	/**
+	 * l definit une ligne du plateau
+	 */
+	private int l;
+	
+	/**
+	 * c definit une colonne du plateau
+	 */
+	private int c;
+	
+	/**
+	 * i definit un compteur pour la boucle for du constructeur Bateau
+	 */
+	private int i;
+	
 	// TODO écrire un commentaire plus précis (done)
 	/** 
 	 *  construire un bateau a la position donne
 	 * @param taille la taille du bateau
 	 * @param estHorizontal la direction du bateau
-	 * @param positionProue la position du bateau a la proue
 	 * 
 	 */
-	public Bateau (int taille, Position positionProue)
+	public Bateau (int taille, int plateau[l][c], boolean estHorizontal)
 	{
-		for(i=0; i<=taille; i++)
-		{
-			Bateau[]={this.positionProue,+postion};
-		}
+		for(i=0;i<taille;i++){
+			plateau[l][c] = 1;
+			if (estHorizontal = 0){
+				l++;
+			}
+			else {
+				c++;
+			};
+		};
 	}
-	
-	
-	
 	
 	/**
 	 * @param positionProue
